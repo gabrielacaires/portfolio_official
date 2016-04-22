@@ -1,0 +1,82 @@
+body {
+	background-color: lightgray;
+	/*background-image: url("images/nycimg_newbw.jpg");*/	background-repeat: no-repeat;
+	background-color: gray;
+}
+
+.content {
+	height: 400px;
+	background-attachment: fixed;
+}
+
+#content1 {
+	background-image: url(images/sunset.jpg);
+}
+
+.bigtitle {
+	position: relative;
+	top: 150px;
+	text-align: center;
+	font-size: 60px;
+	color: white;
+}
+
+.contents {
+	width: 100%;
+	height: 700px;
+	background-image: url(images/nycimg_newbw.jpg);
+	background-attachment: scroll;
+	margin: 2% 0 0 0;
+	float: left;
+}
+
+.transparent {
+	display: inline-block;
+	width: 100%;
+	height: 700px;
+	background-attachment: scroll;
+	background-color: rgba(256, 256, 256, 0.6);
+	margin: 0 0 0 0;
+	float: left;
+}
+
+.textcontainer {
+	width: 400px;
+	height: 100%;
+	background-color: white;
+	float: left;
+}
+
+.text {
+	width: 300px;
+	margin: 250px 80px;
+	font-size: 25px;
+	font-family: "Garamond", serif;
+	padding: 20px 0;
+	border-top: 2px solid #002266;
+	border-bottom: 2px solid #002266;
+}
+
+.hobby {
+	width: 300px;
+	float: left;
+	background-color: white;
+	margin: 40px 0px 20px 70px;
+	box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+}
+
+.hobbiesimg {
+	width: 300px;
+	height: 200px;
+}
+
+.title {
+	font-weight: bold;
+	display: inline;
+}
+
+.imgstext {
+	margin: 10px 10px;
+	text-align: center;
+	font-size: 20px;
+}

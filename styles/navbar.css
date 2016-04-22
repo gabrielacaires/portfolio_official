@@ -1,0 +1,34 @@
+body {
+	background-color: lightgray;
+	/*background-image: url("images/nycimg_new.jpg");*/
+	/*background-repeat: no-repeat;*/
+	/*background-attachment: fixed;*/
+}
+
+.navbar {
+	position: fixed;
+	display: inline-block;
+	width: 100%;
+	background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0));
+}
+
+ul li {
+	display: inline-block;
+	list-style: none;
+	padding: 10px;
+	line-height: 35px;
+	font-size: 20px;
+	margin: 0 20px;
+}
+
+ul li a {
+	text-decoration: none;
+	color: white;
+}
+
+.navitems {
+	top: 0;
+	left: 0;
+	width: 760px;
+	margin: 0 auto;
+}

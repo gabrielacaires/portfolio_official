@@ -1,0 +1,28 @@
+.wholebody {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-family: "Century Gothic", serif;
+	font-size: 60px;
+	background-color: #ccccb3;
+	padding: 2px 10px;
+}
+
+img {
+	display: inline-block;
+	float: left;
+	width: 300px;
+	margin: 10px;
+}
+
+.big_img {
+	width: auto;
+	height: auto;
+}
+
+p{
+	font-size: 20px;
+}
+

@@ -1,0 +1,95 @@
+body {
+	background-color: lightgray;
+	background-image: url("images/nycimg_newbw.jpg");
+	background-repeat: no-repeat;
+	background-color: gray;
+}
+
+.content {
+	height: 400px;
+	background-attachment: fixed;
+}
+
+#content1 {
+	background-image: url(images/coding_cut.jpg);
+}
+
+.bigtitle {
+	position: relative;
+	top: 150px;
+	text-align: center;
+	font-size: 60px;
+	color: white;
+}
+
+.contents {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(256, 256, 256, 0.6);
+}
+
+.textcontainer {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	background-color: white;
+}
+
+.text {
+	display: inline-block;	
+	width: 500px;
+	margin: 150px 0px;
+	margin-left: 200px;
+	font-size: 25px;
+	font-family: "Garamond", serif;
+	padding: 20px 0;
+	border-top: 2px solid #002266;
+	border-bottom: 2px solid #002266;
+}
+
+.project {
+/*	display: none;*/
+	max-width: 900px;
+	margin: 5% auto;
+	box-shadow: 0 0 20px rgba(0,0,0,0.4);
+	padding: 2%;
+}
+
+.projectsimg {
+	display: block;
+	margin: 10px auto;
+	width: 400px;
+	height: 300px;
+}
+
+.title {
+	font-weight: bold;
+	text-align: center;
+	margin: 10px 0px;
+}
+
+.imgstext {
+	margin: 30px 30px;
+	font-size: 20px;
+}
+
+/*Slideshow styling*/
+.slideshow {
+	position: relative;
+	margin-left: 150px;
+	display: inline-block;
+	vertical-align: middle;
+	width: 520px;
+	height: 320px; 
+	background-color: lightblue;
+}
+
+.slideshow > div {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	right: 10px;
+	bottom: 10px;
+}
+
